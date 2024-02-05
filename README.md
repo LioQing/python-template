@@ -105,7 +105,9 @@ Then replace the content with the following:
     "black-formatter.args": [
         "--line-length",
         "79",
-        "--experimental-string-processing"
+        "--preview",
+        "--enable-unstable-feature",
+        "string_processing"
     ],
 }
 ```
